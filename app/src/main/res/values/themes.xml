@@ -7,6 +7,7 @@
 
     <style name="Theme.BlurryDialog" parent="StartMenu">
         <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
         <item name="android:windowActionBar">true</item>
         <item name="android:windowActionBarOverlay">true</item>
         <item name="android:windowActionModeOverlay">false</item>
