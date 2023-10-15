@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'com.ax86.startmenu'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.ax86.startmenu"
