@@ -1,7 +1,5 @@
 # Start Menu
-Minimal app for Android 12L that can be pinned to taskbar to provide a convenient fullscreen app launcher.  
+Minimal app for Android 12L that can be pinned to taskbar to provide a convenient fullscreen app launcher, also showcasing Android 12 cross-window blurs.
+To use blur ro.surface_flinger.supports_background_blur=1 system property should be set and on Bliss OS `debug.renderengine.backend=<skiagl or skiaglthreaded>` (`FORCE_RENDERENGINE=<skiagl or skiaglthreaded>` in kernel cmdline).  
 
-
-
-https://github.com/Xtr126/MinimalStartMenu/assets/80520774/23ae4256-b399-4a2a-8a12-f0b3bde93cb9
-
+https://github.com/user-attachments/assets/8c808e3c-5990-429a-9957-803137551ea6

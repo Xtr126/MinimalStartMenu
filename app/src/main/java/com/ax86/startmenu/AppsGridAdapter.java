@@ -76,7 +76,6 @@ public class AppsGridAdapter extends RecyclerView.Adapter<AppsGridAdapter.Recycl
             String packageName = appsDataArrayList.get(i).packageName;
             Intent launchIntent = context.getPackageManager().getLaunchIntentForPackage(packageName);
             context.startActivity(launchIntent);
-            ((MainActivity)context).finish();
         }
     }
 
