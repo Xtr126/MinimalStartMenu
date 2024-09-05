@@ -18,6 +18,8 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
+            android:finishOnCloseSystemDialogs="true"
+            android:finishOnTaskLaunch="true"
             android:theme="@style/Theme.BlurryDialog">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
